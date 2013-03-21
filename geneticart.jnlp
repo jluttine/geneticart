@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+  codebase="http://users.tkk.fi/~jluttine/s1141100"
+  href="geneticart.jnlp"
+>
+<information>
+  <title>Genetic Art</title>
+  <vendor>Jaakko Luttinen and Janne Wallenius</vendor>
+  <homepage href="http://users.tkk.fi/~jluttine" />
+  <description>S-114.1100 Project: Genetic Art</description>
+  <icon href="icon.gif" />
+</information>
+
+<offline-allowed/>
+
+<security>
+     <all-permissions/>
+</security>
+
+<resources>
+  <j2se version="1.6+" />
+  <jar href="geneticart.jar"/>
+</resources>
+
+<application-desc main-class="org.ga.GeneticArt" />
+
+</jnlp>
